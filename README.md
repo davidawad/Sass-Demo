@@ -48,7 +48,7 @@ myCoolProject/
 david@plato:~$ ls
 output.css  output.css.map style.sass
 ```
-Now if you're like me you like to keep your code inside of a ```css/``` folder. So you can edit your commands accordingly. I've included a Makefile(if you don't know what a Makefile is check out the notes below) that will allow you to simply type ```make style``` and it will open up the sass folder and look for a style.sass and then pre-process it and leave it waiting for you in your ```css/``` folder so you don't have to mess with your html and can just refresh your browser. Keeping your mind on what matters :)
+Now if you're like me you like to keep your code inside of a ```css/``` folder. So you can edit your commands accordingly. I've included a Makefile(if you don't know what a Makefile is check out the notes below) that will allow you to simply type ```make style``` and it will open up the ```sass/``` folder and look for a style.sass and then pre-process it and leave it waiting for you in your ```css/``` folder.(You'll find that [compass](http://compass-style.org/) is a much better way to do this!) so you don't have to mess with your html and can just refresh your browser. Keeping your mind on what matters :)
 
 
 ###So that's it! Enjoy Sass and have fun learning about everything CSS was meant to be!
